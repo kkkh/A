@@ -20,14 +20,14 @@
 
         <ion-list *ngIf="loggedIn" lines="none">
           <ion-list-header>
-            账户
+            Account
           </ion-list-header>
 
           <ion-menu-toggle autoHide="false">
             <ion-item routerLink="/account" routerLinkActive="active" routerDirection="root" detail="false">
               <ion-icon slot="start" name="person"></ion-icon>
               <ion-label>
-                Account
+                账户
               </ion-label>
             </ion-item>
           </ion-menu-toggle>
@@ -36,7 +36,7 @@
             <ion-item routerLink="/support" routerLinkActive="active" routerDirection="root" detail="false">
               <ion-icon slot="start" name="help"></ion-icon>
               <ion-label>
-                Support
+                帮助
               </ion-label>
             </ion-item>
           </ion-menu-toggle>
@@ -45,7 +45,7 @@
             <ion-item button (click)="logout()" detail="false">
               <ion-icon slot="start" name="log-out"></ion-icon>
               <ion-label>
-                Logout
+                注销
               </ion-label>
             </ion-item>
           </ion-menu-toggle>
