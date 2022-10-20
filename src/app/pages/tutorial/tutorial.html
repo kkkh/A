@@ -1,7 +1,7 @@
 <ion-header no-border>
   <ion-toolbar>
     <ion-buttons slot="end">
-      <ion-button color='primary' (click)="startApp()" [hidden]="!showSkip">Skip</ion-button>
+      <ion-button color='primary' (click)="startApp()" [hidden]="!showSkip">忽略</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -9,7 +9,7 @@
 <ion-content fullscreen="true">
   <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false">
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image" />
+      <img src="assets/img/1.png" class="slide-image" />
       <h2 class="slide-title">
         Welcome to
         <b>小蓝色</b>
@@ -22,25 +22,23 @@
 
     <ion-slide>
       <img src="assets/img/TaiyuanMetroNewLo.png" class="slide-image" />
-      <h2 class="slide-title">What is Ionic?</h2>
+      <h2 class="slide-title">太原地铁</h2>
       <p>
-        <b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies
-        like HTML, CSS, and JavaScript.</p>
+        <b>太原地铁</b> Taiyuan Metro，是服务于中国山西省太原市及太原都市圈各地区的城市轨道交通系统，其第一条线路（2号线）于2020年12月26日开通运营，使太原成为中国大陆第39座开通地铁的城市，也是华北地区第5座开通地铁的城市，山西省第1座开通地铁的城市。</p>
     </ion-slide>
 
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image" />
+      <img src="assets/img/3.png" class="slide-image" />
       <h2 class="slide-title">What is Ionic Appflow?</h2>
       <p>
-        <b>Ionic Appflow</b> is a powerful set of services and features built on top of Ionic Framework that brings a totally new
-        level of app development agility to mobile dev teams.</p>
+        <b>生命不息 奋斗不止</b> 没有一个冬天不可逾越，没有一个春天不会来临。最慢的步伐不是跬步，而是徘徊，最快的脚步不是冲刺，而是坚持。</p>
     </ion-slide>
 
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <img src="assets/img/ok.png" class="slide-image" />
       <h2 class="slide-title">Ready to Play?</h2>
       <ion-button fill="clear" (click)="startApp()">
-        Continue
+        开启新的一天
         <ion-icon slot="end" name="arrow-forward"></ion-icon>
       </ion-button>
     </ion-slide>
