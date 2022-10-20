@@ -5,20 +5,20 @@ import { PopoverController } from '@ionic/angular';
 @Component({
   template: `
     <ion-list>
-      <ion-item button (click)="close('https://ionicframework.com/getting-started')">
-        <ion-label>Learn Ionic</ion-label>
+      <ion-item button (click)="close('https://b23.tv/kpckvPQ')">
+        <ion-label>呀超（哔哩哔哩）</ion-label>
       </ion-item>
-      <ion-item button (click)="close('https://ionicframework.com/docs/')">
-        <ion-label>Documentation</ion-label>
+      <ion-item button (click)="close('https://qm.qq.com/cgi-bin/qm/qr?k=VYzqzge_HU-pc7Qn7ws4QDOeRaEnGncS&noverify=0&personal_qrcode_source=4')">
+        <ion-label>QQ</ion-label>
       </ion-item>
-      <ion-item button (click)="close('https://showcase.ionicframework.com')">
-        <ion-label>Showcase</ion-label>
+      <ion-item button (click)="close('https://github.com/kkkh')">
+        <ion-label>GitHub</ion-label>
       </ion-item>
-      <ion-item button (click)="close('https://github.com/ionic-team/ionic')">
-        <ion-label>GitHub Repo</ion-label>
+      <ion-item button (click)="close('https://awvw.cn')">
+        <ion-label>秦超</ion-label>
       </ion-item>
-      <ion-item button (click)="support()">
-        <ion-label>Support</ion-label>
+      <ion-item button (click)="support('https://support.qq.com/product/287814')">
+        <ion-label>帮助</ion-label>
       </ion-item>
     </ion-list>
   `
