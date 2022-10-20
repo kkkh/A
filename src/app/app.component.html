@@ -5,7 +5,7 @@
       <ion-content>
         <ion-list lines="none">
           <ion-list-header>
-            Conference
+            小蓝色
           </ion-list-header>
           <ion-menu-toggle autoHide="false" *ngFor="let p of appPages; let i = index">
             <ion-item [routerLink]="p.url" routerLinkActive="selected" routerDirection="root" detail="false">
@@ -20,7 +20,7 @@
 
         <ion-list *ngIf="loggedIn" lines="none">
           <ion-list-header>
-            Account
+            账户
           </ion-list-header>
 
           <ion-menu-toggle autoHide="false">
@@ -70,7 +70,7 @@
             <ion-item routerLink="/support" routerLinkActive="active" routerDirection="root" detail="false">
               <ion-icon slot="start" name="help"></ion-icon>
               <ion-label>
-                Support
+                帮助
               </ion-label>
             </ion-item>
           </ion-menu-toggle>
@@ -79,7 +79,7 @@
             <ion-item routerLink="/signup" routerLinkActive="active" routerDirection="root" detail="false">
               <ion-icon slot="start" name="person-add"></ion-icon>
               <ion-label>
-                Signup
+                注册
               </ion-label>
             </ion-item>
           </ion-menu-toggle>
@@ -95,7 +95,7 @@
 
         <ion-list lines="none">
           <ion-list-header>
-            Tutorial
+            预览
           </ion-list-header>
           <ion-menu-toggle autoHide="false">
             <ion-item button (click)="openTutorial()" detail="false">
