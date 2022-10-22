@@ -10,7 +10,7 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'schedule',
+        path: '时间表',
         children: [
           {
             path: '',
@@ -23,7 +23,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'speakers',
+        path: '演讲者',
         children: [
           {
             path: '',
@@ -40,7 +40,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'map',
+        path: '地图',
         children: [
           {
             path: '',
@@ -49,7 +49,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'about',
+        path: '关于',
         children: [
           {
             path: '',
