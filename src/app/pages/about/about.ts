@@ -11,10 +11,10 @@ import { PopoverPage } from '../about-popover/about-popover';
 })
 export class AboutPage {
   location = 'madison';
-  conferenceDate = '2047-05-17';
+  conferenceDate = '2004-02-22';
 
   selectOptions = {
-    header: 'Select a Location'
+    header: '选择一个位置'
   };
 
   constructor(public popoverCtrl: PopoverController) { }
